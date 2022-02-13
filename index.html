@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <section class="container" >
+
+        <div class="section_1" >
+
+            <header class="header">
+                <!-- <div class="logo">
+                    <img src="./logo/MUSIFY.png" alt="logo">
+                </div> -->
+               <p>
+                   Musify
+                </p>
+            </header>
+
+            <div class="audios">
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="./thumbnails/img_Faded.jpg" alt="">
+                    </div>
+                    <div class="audio_detail" >
+                        <h1 class="audio_title">Faded - Alan Walker</h1>
+                        <button class="btn" onclick="playAudio(1)" >PLAY</button>
+                    </div>
+                </div>
+            
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="./thumbnails/img_Unstoppable.jpg" alt="">
+                    </div>
+                    <div class="audio_detail" >
+                        <h1 class="audio_title">Unstoppable - Sia</h1>
+                        <button class="btn" onclick="playAudio(2)">PLAY</button>
+                    </div>
+                </div>
+
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="./thumbnails/img_Believer.jpg" alt="">
+                    </div>
+                    <div class="audio_detail" >
+                        <h1 class="audio_title">Believer - Imagine Dragons</h1>
+                        <button class="btn" onclick="playAudio(3)">PLAY</button>
+                    </div>
+                </div>
+
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="./thumbnails/img_GirlsLikeYou.jpg" alt="">
+                    </div>
+                    <div class="audio_detail" >
+                        <h1 class="audio_title"> Maroon 5 - Girls Like You</h1>
+                        <button class="btn" onclick="playAudio(4)">PLAY</button>
+                    </div>
+                </div>
+
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="./thumbnails/img_Senorita.jpg" alt="">
+                    </div>
+                    <div class="audio_detail" >
+                        <h1 class="audio_title">Shawn Mendes - Senorita</h1>
+                        <button class="btn" onclick="playAudio(5)">PLAY</button>
+                    </div>
+                </div>
+
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="./thumbnails/img_ScarsToBeautiful.jpg" alt="">
+                    </div>
+                    <div class="audio_detail" >
+                        <h1 class="audio_title">Alessia Cara - Scars To Your Beautiful</h1>
+                        <button class="btn" onclick="playAudio(6)">PLAY</button>
+                    </div>
+                </div>
+
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="./thumbnails/img_WorkFromHome.jpg" alt="">
+                    </div>
+                    <div class="audio_detail" >
+                        <h1 class="audio_title">Fifth Harmony - Work from Home</h1>
+                        <button class="btn" onclick="playAudio(7)">PLAY</button>
+                    </div>
+                </div>
+
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="./thumbnails/img_LoveMeLikeYouDo.jpg" alt="">
+                    </div>
+                    <div class="audio_detail" >
+                        <h1 class="audio_title">Ellie Goulding - Love Me Like You Do</h1>
+                        <button class="btn" onclick="playAudio(8)">PLAY</button>
+                    </div>
+                </div>
+
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="./thumbnails/img_Friends.jpg" alt="">
+                    </div>
+                    <div class="audio_detail" >
+                        <h1 class="audio_title">Marshmello & Anne-Marie - FRIENDS</h1>
+                        <button class="btn" onclick="playAudio(9)">PLAY</button>
+                    </div>
+                </div>
+
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="./thumbnails/img_StealMyGirL.jpg" alt="">
+                    </div>
+                    <div class="audio_detail" >
+                        <h1 class="audio_title">Steal My Girl - One Direction</h1>
+                        <button class="btn" onclick="playAudio(10)">PLAY</button>
+                    </div>
+                </div>
+
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="./thumbnails/img_Surrender.jpg" alt="">
+                    </div>
+                    <div class="audio_detail" >
+                        <h1 class="audio_title">Natalie Taylor - Surrender</h1>
+                        <button class="btn" onclick="playAudio(11)">PLAY</button>
+                    </div>
+                </div>
+
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="./thumbnails/img_SeeYouAgain.jpg" alt="">
+                    </div>
+                    <div class="audio_detail" >
+                        <h1 class="audio_title">Wiz Khalifa - See You Again</h1>
+                        <button class="btn" onclick="playAudio(12)">PLAY</button>
+                    </div>
+                </div>
+
+            
+
+
+            </div>
+        </div>
+        
+
+        
+
+
+
+
+<!-- Section___2 -->
+
+        <div class="section_2" >
+
+            <div class="thumbnail">
+                <img id="thumbnail" src="/thumbnails/img_LoveMeLikeYouDo.jpg" alt="">
+            </div>
+
+            <audio id="audio_player" class="audio_player" src="./audio/Ellie Goulding - Love Me Like You Do (Official Video).mp3" controls> </audio>
+            <h1 id="audio_player_title" class="audio_player_title">Love Me Like You Do - Ellie Goulding</h1>
+        </div>
+    
+
+    </section>
+
+
+    <script src="javascript.js"></script>
+</body>
+</html>
